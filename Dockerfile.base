@@ -1,0 +1,4 @@
+from r-base
+
+RUN R -e "install.packages('tseries',dependencies=TRUE, repos='http://cran.rstudio.com/')"
+
